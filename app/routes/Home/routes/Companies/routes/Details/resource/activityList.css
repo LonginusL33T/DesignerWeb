@@ -1,0 +1,25 @@
+/*头像*/
+:local(.avatar){
+    margin-top: 50px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background: #449dd5;
+}
+/*企业用户列*/
+:local(.avatarcontainer){
+    text-align: center;
+    height: 630px;
+}
+
+/*企业用户*/
+:local(.company){
+    font-size: large;
+    font-weight: bold;
+    color: #449dd5;
+}
+
+
+
+
+

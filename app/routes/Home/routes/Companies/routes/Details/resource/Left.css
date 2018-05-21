@@ -1,0 +1,19 @@
+:local(.name){
+    font-size: 26px;
+    color: #c98f10;
+}
+:local(.circle){
+    height: 76px;
+    width: 76px;
+    background-color: #d3d3d3;
+    border-radius: 38px;
+    margin: 43px auto 12px;
+}
+:local(.circle2){
+    padding: 17.5px;
+    height: 76px;
+    width: 76px;
+    background-color: #d3d3d3;
+    border-radius: 38px;
+    margin: 43px auto 12px;
+}

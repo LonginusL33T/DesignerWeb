@@ -1,0 +1,86 @@
+
+/*登录框*/
+:local(.loginForm){
+    margin-top: 60px;
+    background: url("/resource/images/pic_login.png");
+    height: 243px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/**
+邮箱输入框
+ */
+:local(.input_mail){
+    background: rgba(240, 248, 255, 0);
+    border-radius: 0;
+    color: #717171;
+    border: 1px #cecece solid;
+    width: 245px;
+    font-size: 14px;
+    /*margin-left: 434px;*/
+}
+
+
+:local(.input:focus){
+    outline: 0;
+    box-shadow: 0 0 0 2px rgba(16, 142, 233, 0)!important;
+}
+:local(.submit){
+    float: right;
+    margin-left: 35px;
+    border-radius: 6px;
+    height: 36px;
+    width: 102px;
+    background:#e19b06;
+    border-color:#e19b06;
+    font-size: 14px;
+}
+:local(.submit:focus){
+    background: rgb(225, 169, 25);
+    border-color:rgb(225, 169, 25);
+}
+:local(.submit:hover ){
+    background: rgb(225, 169, 25);
+    border-color:rgb(225, 169, 25);
+}
+
+/*整个登录页面*/
+:local(.login){
+    height:100vh;
+    background: #ffffff;
+}
+:local(.form){
+    margin-top: 90px;
+}/*
+:local(.option){
+    margin-top:5vh;
+    margin-left: 53.5vw;
+}*/
+:local(.option li){
+    color: white;
+    border-left: 1px solid white;
+    padding: 0 20px;
+    line-height: 10px;
+    float: left;
+}
+:local(.option li:first-child){
+    border:0;
+}
+
+:local(.span){
+    margin-top: 10px;
+    float: right;
+    color:#FFFFFF;
+    text-decoration:none;
+    margin-left: 14px;
+    font-size: 14px;
+}
+/**
+按钮formitem
+ */
+:local(.form_button){
+    float: right;
+    height: 36px;
+    width: 560px;
+    margin-top: 30px;
+}

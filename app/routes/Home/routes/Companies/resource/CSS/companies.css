@@ -1,0 +1,114 @@
+/**
+内容框
+ */
+:local(.content_div){
+    background: #fff;
+    margin-left: -10px;
+    margin-top: 8px;
+    height: 640px;
+    width: 1200px;
+}
+
+/**
+企业规模按钮
+ */
+:local(.company_button){
+    margin-right: 26px;
+    float: right;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 6px;
+    width: 136px;
+    height: 36px;
+    background: #c98f10;
+    border:none;
+}
+
+/**
+全部性质按钮
+ */
+:local(.nature_button){
+    margin-right: 26px;
+    float: right;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 6px;
+    width: 136px;
+    height: 36px;
+    background: #6e95d3;
+    border:none;
+}
+
+/**
+图片按钮大小
+ */
+:local(.image){
+    margin-left: 14px;
+    /*width: 14px;
+    height: 14px;*/
+}
+
+/**
+企业菜单
+ */
+:local(.company_menu){
+    border-width: 1px;
+    border-style: solid;
+    border-color: #c98f10;
+}
+
+/**
+性质菜单
+ */
+:local(.nature_menu){
+    border-width: 1px;
+    border-style: solid;
+    border-color: #6e95d3;
+}
+/**
+菜单条
+ */
+:local(.menu_item){
+    text-align: center;
+    font-size: 14px;
+    margin: 0 auto;
+    height: 39px;
+    border-width: 1px 0 0 0;
+    border-style: solid;
+    border-color: #e6e6e6;
+}
+
+/**
+删除按钮
+ */
+:local(.delete_button){
+    margin-right: 10px;
+    float: right;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 6px;
+    width: 136px;
+    height: 36px;
+    background: #777;
+    border:none;
+}
+/**
+搜索按钮
+ */
+:local(.inputSearch){
+    height:30px;
+    width: 300px;
+    margin-left:8px;
+    border-radius:15px;
+}
+/**
+蚂蚁金服style覆盖
+ */
+:global(.ant-input){
+
+    background: #fff;
+    border-radius: 14px;
+}

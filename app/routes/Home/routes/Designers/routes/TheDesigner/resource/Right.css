@@ -1,0 +1,62 @@
+:global(.ant-tabs-bar){
+    border-bottom:0
+}
+:local(.text){
+     height:38px;
+     width: 21.5vw;
+     color:#2a2a2a;
+     padding-left:27px;
+     vertical-align: middle;
+     display: table-cell;
+ }
+:global(.title){
+    font-size: 12px;
+    color: #888888;
+}
+
+:local(.img){
+    height: 8vh;
+    width: 8vw;
+    margin-right: 8px;
+}
+
+:local(.table_div){
+    max-height: 141px;
+    text-align: left;
+    color: #303030;
+}
+
+:local(.table_other_div){
+    width:15vw;
+    text-align: right;
+    color: #303030;
+}
+
+:local(.table_title){
+    font-size: 16px;
+    color: #303030;
+}
+
+:local(.table_text){
+    margin-top: 14px;
+    font-size: 12px;
+    color: #303030;
+}
+
+:local(.table_time){
+    font-size: 12px;
+    color: #888888;
+}
+
+:local(.table_action){
+    font-size: 12px;
+    margin-top: 80px;
+}
+
+:local(.table_action_watch){
+    margin-right: 50px;
+    font-size: 12px;
+    color: #2757bb;
+    margin-top: 80px;
+}
+

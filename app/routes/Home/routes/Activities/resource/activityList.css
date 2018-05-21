@@ -1,0 +1,46 @@
+/*头像*/
+:local(.avatar){
+    vertical-align:middle;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 43px;
+    height: 76px;
+    width: 76px;
+    border-radius: 50%;
+    background: #d3d3d3;
+}
+/*头像*/
+:local(.avatar1){
+    vertical-align:middle;
+}
+/*企业用户列*/
+:local(.avatarcontainer){
+    width: 15vw;
+    /* 水平居中 */
+    text-align:center;
+}
+
+/*企业用户*/
+:local(.company){
+    margin-top: 10vh;
+    font-size: 26px;
+    color: #c98f10;
+}
+/*活动列表头图*/
+:local(.img){
+    width: 105px;
+    height: 70px;
+    background: #000;
+    /*clip: rect(0px,105px,70px,0px);
+    position: absolute;*/
+}
+:global(.ant-modal-body img) {
+    max-width: 100%;
+}
+:global(.media-image){
+    max-width: 100%;
+}
+
+
+
+

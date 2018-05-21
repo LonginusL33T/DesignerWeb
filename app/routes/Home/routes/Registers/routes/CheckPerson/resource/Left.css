@@ -1,0 +1,14 @@
+:global(.name){
+    font-size: 26px;
+    color: #c98f10;
+}
+:global(.circle){
+    height: 76px;
+    width: 76px;
+    background-color: #d3d3d3;
+    border-radius: 38px;
+    margin: 43px auto 12px;
+}
+:global(.circle)>img{
+    margin-top:17.5px;
+}

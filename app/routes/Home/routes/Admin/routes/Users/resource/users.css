@@ -1,0 +1,74 @@
+:local(.option) {
+    padding: 10px;
+    cursor: pointer;
+    color: #108ee9;
+    background: transparent;
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+    -webkit-transition: color .3s ease;
+    transition: color .3s ease;
+}
+
+:local(.lock) {
+    composes: option;
+    color: #108ee9;
+}
+
+:local(.permission) {
+    composes: option;
+}
+
+:local(.resetPassword) {
+    composes: option;
+}
+
+:local(.resetPassword:hover) {
+    color: rgba(16, 142, 233, 0.79)
+}
+
+:local(.status) {
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    font-style: normal;
+    vertical-align: baseline;
+    text-align: center;
+    text-transform: none;
+    line-height: 1;
+}
+
+:local(.statusNomal) {
+    composes: status;
+    background: #00ae55;
+}
+
+:local(.statusLocked) {
+    composes: status;
+    background: #d00523;
+}
+
+:local(.statusText) {
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+:local(.textNomal) {
+    composes: statusText;
+    color: #00ae55;
+}
+
+:local(.textLocked) {
+    composes: statusText;
+    color: #d00523;
+}
+
+:local(.lock) {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+:local(.search) {
+
+}

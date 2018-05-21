@@ -1,0 +1,86 @@
+:global(.ant-tabs-bar){
+    border-bottom:0
+}
+:global(.title){
+    font-size: 12px;
+    color: #888888;
+}
+:local(.text){
+    margin-left: 2px;
+    height:38px;
+    width: 21.5vw;
+    color:#2a2a2a;
+    padding-left:27px;
+    vertical-align: middle;
+    display: table-cell;
+}
+:local(.img){
+    height: 7vh;
+    width: 7vw;
+    margin-right: 8px;
+}
+
+:local(.table_div){
+    max-height: 105px;
+    text-align: left;
+    color: #303030;
+}
+
+:local(.table_other_div){
+    width:15vw;
+    text-align: right;
+    color: #303030;
+}
+
+:local(.table_title){
+    font-size: 16px;
+    color: #303030;
+}
+
+:local(.table_text){
+    overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    font-size: 12px;
+    color: #303030;
+    height: 70px;
+}
+
+:local(.table_time){
+    font-size: 14px;
+    color: #888888;
+}
+
+:local(.table_action){
+    font-size: 12px;
+    margin-top: 80px;
+}
+
+:local(.table_action_watch){
+    margin-right: 50px;
+    font-size: 12px;
+    color: #2757bb;
+    margin-top: 80px;
+}
+:global(.modalClass .ant-modal-body) {
+    padding: 0px;
+}
+:local(.circle){
+    height: 76px;
+    width: 76px;
+    background-color: #d3d3d3;
+    border-radius: 38px;
+}
+:local(.circle2){
+    padding: 17.5px;
+    height: 76px;
+    width: 76px;
+    background-color: #d3d3d3;
+    border-radius: 38px;
+
+}
+:global(.ant-input){
+    border-radius: 4px;
+}

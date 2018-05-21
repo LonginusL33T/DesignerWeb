@@ -1,0 +1,185 @@
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-transition-delay: 9999s;
+    -webkit-transition: color 9999s ease-out, background-color 9999s ease-out;
+}
+:local(.loginLogo){
+    text-align: center;
+}
+:local(.loginLogo img){
+    height: 18vh;
+    margin-top: 10vh;
+}
+/*登录框*/
+:local(.loginForm){
+    margin-top: 5vh;
+    background: url("/resource/images/login-bg.png");
+    height: 41vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/**
+邮箱输入框
+ */
+:local(.input_mail){
+    margin-left: 16px;
+    float: left;
+    width: 250px;
+    background: rgba(240, 248, 255, 0);
+    border-radius: 4px;
+   /* border: 0;
+    border-radius: 0;
+    color: #717171;
+    outline:none;
+    margin-top: 13px;
+    border-bottom: 1px #cecece solid;*/
+    /*margin-left: 434px;*/
+}
+
+/**
+新密码输入框
+ */
+:local(.input_new_password){
+    margin-left: 16px;
+    /*outline:none;*/
+    float: left;
+    width: 250px;
+    background: rgba(240, 248, 255, 0);
+    border-radius: 4px;
+    /*border: 0;
+    color: #717171;
+    width: 250px;
+    border-bottom: 1px #cecece solid;*/
+}
+
+/**
+验证码输入框
+ */
+:local(.input_verification){
+    margin-left: 16px;
+    float: left;
+    width: 250px;
+    background: rgba(240, 248, 255, 0);
+    border-radius: 4px;
+    /*border: 0;
+    border-radius: 0;
+    color: #717171;
+    border-bottom: 1px #cecece solid;*/
+    margin-top: 11px;
+}
+:local(.input:focus){
+    outline: 0;
+    box-shadow: 0 0 0 2px rgba(16, 142, 233, 0)!important;
+}
+:local(.submit){
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 6px;
+    height: 32px;
+    width: 250px;
+    background:#e19b06;
+    border-color:#e19b06;
+    font-size: 14px;
+}
+:local(.submit:focus){
+    background: rgb(225, 169, 25);
+    border-color:rgb(225, 169, 25);
+}
+:local(.submit:hover ){
+    background: rgb(225, 169, 25);
+    border-color:rgb(225, 169, 25);
+}
+
+/*整个登录页面*/
+:local(.login){
+    height:100vh;
+    background: #ffffff;
+}
+:local(.form){
+    margin-top: 3vh;
+    text-align: center;
+}/*
+:local(.option){
+    margin-top:5vh;
+    margin-left: 53.5vw;
+}*/
+:local(.option li){
+    color: white;
+    border-left: 1px solid white;
+    padding: 0 20px;
+    line-height: 10px;
+    float: left;
+}
+:local(.option li:first-child){
+    border:0;
+}
+
+:local(.span){
+    margin-top: 10px;
+    float: left;
+    color:#FFFFFF;
+    text-decoration:none;
+    margin-left: 14px;
+    font-size: 14px;
+}
+/**
+按钮formitem
+ */
+
+:local(.form_row){
+    margin-top: 30px;
+}
+:local(.a){
+    margin-bottom: 10px;
+    border:0;
+    padding:0;
+    color:#f2bd49 !important;
+    padding-top: 10px!important;
+}
+
+:local(.back_a){
+    text-decoration:none;
+    color:#f2bd49;
+}
+
+:local(.back_div){
+    text-align: left;
+    margin: 0 auto;
+    width: 550px;
+}
+:global(.ant-form-inline .ant-form-explain){
+    margin-right:170px;
+    position: static;
+}
+:global(.ant-form-inline .ant-form-item-with-help){
+    margin-bottom:-18px;
+}
+ :global(.ant-form-inline .ant-form-explain){
+     margin-right:0px;
+    text-align: left;
+     padding-left: 7px;
+ }
+:global(.ant-form .ant-input ){
+    background: rgba(240, 248, 255, 0);
+    border: 0;
+    color: #717171;
+    border-radius: 0;
+}
+:local(.input_new_password ::-webkit-input-placeholder){
+    color: #717171;
+}
+:local(.input_mail ::-webkit-input-placeholder){
+    color: #717171;
+}
+:local(.input_verification ::-webkit-input-placeholder){
+    color: #717171;
+}
+
+
+
+
+

@@ -1,0 +1,12 @@
+:local(.text){
+    height:38px;
+    width: 24vw;
+    color:#2a2a2a;
+    padding-left:27px;
+    vertical-align: middle;
+    display: table-cell;
+}
+:global(.title){
+    font-size: 12px;
+    color: #888888;
+}
